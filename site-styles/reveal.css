@@ -26,3 +26,16 @@ img[src*="assets/twitter.png"], img[src*="assets/rss.png"], img[src*="assets/ema
 img[src*="assets/twitter.png"] {
   background-color: blue;
 }
+
+img[src*="assets/Patch_clamp.png"], img[src*="assets/pa.gif"] {
+  max-width: 400px;
+  vertical-align: middle;
+}
+
+img[src*="generated/RSD_Venn.png"] {
+  max-height: 500px
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+}

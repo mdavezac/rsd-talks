@@ -1,47 +1,37 @@
 ---
 title: The Craftsperson And The Scholar
-author: James Hetherington
+author: James Hetherington, __Mayeul d'Avezac__
 layout: default
 slidelink: True
 ---
 
-James Hetherington
+Mayeul d'Avezac
 ------------------
 
-* PhD, Theoretical Physics
-    * High-Energy Physics, Cavendish Laboratory
-* Post-doc, systems biology, UCL CoMPLEx
-    * Glucose homeostasis
-* The MathWorks
-    * Senior Developer, Model Management Group
-* Senior Scientific Innovator, AMEE UK Ltd
-    * Environmental impact modeling
-* Scientific Programmer, UCL CCS
-    * Brain blood flow CFD
-* Head of Research Software Development, UCL
+* PhD, Université Pierre et Marie Curie
+    * writing code for material science
+* Post-doc, NREL
+    * writing code for material science
+* Engineer in the Research Software Development group, UCL
 
 The State of Research Software
 ================================
 
-The SIRO Problem
-----------------
-
-~~Garbage in Garbage Out~~
-
-Sensible In, Reasonable Out.
-
 PhDWare
 -------
 
-* Don't look if anyone's done it before
-* Code till it works
-* Generate a figure
-* Throw it away
+  * Don't look if anyone's done it before
+  * Code till it works
+  * Generate a figure
+  * Throw it away
+
+> * used by the group for next decade
+  * though no one understands how it does what it does
 
 Labware
 -------
 
-* Understood by one genius
+* Understood by that one guy
 * Implements great science, now
 * FORTRAN in any language
 * Code not engineered for readability
@@ -99,7 +89,6 @@ Why it works
 * We have been hiding as:
     * RAs who program too much
     * HPC or research group sysadmins
-* We need a name, and some status
 * The research system needs to
     * Measure and incentivise RSEs correctly
     * Integrate RSEs within HEIs
@@ -131,13 +120,13 @@ UCL Staffing
 ------------
 
 * 3 Permanent Roles (Central IT funding)
-* Three grant-funded Research Software Developers
+* Five grant-funded Research Software Developers
 
 Call for projects
 -----------------
 
 * Judged by academic panel
-* Every quarter
+* Idealy quarter
 * Half FTE for term
 * Worth £8k
 * Ten projects so far
@@ -156,10 +145,7 @@ Sample free projects
 ====================
 
 Low-Template DNA
-================
-
-Whodunnit code: low-template DNA
---------------------------------
+----------------
 
 ![](assets/whodunnitdna.jpg)
 
@@ -178,11 +164,12 @@ Structural work on likeLTD
 * Look at using different optimiser libraries
 * Documentation added
 * Ready for publication to CRAN
+* Continuous testing to ensure correctness
 
 Performance Improvements in likeLTD
 -------------------------------------------
 
-* 4 times from moving to C
+* 4 times from moving to core algorithm to C
 * 8 times from parallelisation
 * 10 times from change of optimisation algorithm
 * 300 times total
@@ -194,6 +181,13 @@ Performance Improvements in likeLTD
 
 DCProgs
 =======
+
+Single Ion-Channel
+------------------
+
+<figure class="half">
+![](assets/Patch_clamp.png) ![](assets/pa.gif)
+</figure>
 
 Old State of the Code
 -----------------
@@ -476,15 +470,11 @@ Training
 Training
 --------
 
-> "Many of the students
-being trained through the Centres will be using computational techniques in their
-projects, and some may have projects aimed specifically at software
-development. It is essential that they are given appropriate training
-so that they
-can confidently use, extend and develop software in a way that supports correct,
-reproducible and reusable research."
-
--- EPSRC Centres for Doctoral Training Call
+* classes:
+  * [Research Software Engineering With Python](http://development.rc.ucl.ac.uk/training/engineering)
+  * [Research Computing with C++](http://development.rc.ucl.ac.uk/training/rcwithcpp)
+* With research groups during projects
+* And...
 
 Software Carpentry
 ------------------
@@ -508,8 +498,6 @@ Software Carpentry
 A syllabus for research computing
 ---------------------------------
 
-* [Research Software Engineering With Python](http://development.rc.ucl.ac.uk/training/engineering)
-* [Research Computing with C++](http://development.rc.ucl.ac.uk/training/rcwithcpp)
 
 Coda
 ====
@@ -528,27 +516,19 @@ Acknowledgements
 * Andrew Smith, Ben Waugh, Matt Clarkson
 * Greg Wilson
 
-Contact
--------
-
-![](assets/twitter.png) @uclrcsoftdev @jamespjh
-
-![](assets/rss.png) blogs.ucl.ac.uk/research-software-development
-
-![](assets/email.png) j.hetherington@ucl.ac.uk
-
 Why you should have one
 -----------------------
 
 * More and more research uses software
 * General programmers can't understand research
 * Postdocs and PhD students don't have time to make reliable code
+* Better software for better research
 
 Why you should be one
 ---------------------
 
-* Write papers
-* Make code
+* write code
+* while doing all sorts of science
 
 Why you should be one
 ---------------------
