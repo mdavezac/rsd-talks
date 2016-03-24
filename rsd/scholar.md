@@ -471,8 +471,8 @@ Training
 --------
 
 * classes:
-  * [Research Software Engineering With Python](http://development.rc.ucl.ac.uk/training/engineering)
-  * [Research Computing with C++](http://development.rc.ucl.ac.uk/training/rcwithcpp)
+    * [Research Software Engineering With Python](http://development.rc.ucl.ac.uk/training/engineering)
+    * [Research Computing with C++](http://development.rc.ucl.ac.uk/training/rcwithcpp)
 * With research groups during projects
 * And...
 
@@ -494,10 +494,6 @@ Software Carpentry
 > like I was inside my computer.
 
 -- A student at a UCL software carpentry event
-
-A syllabus for research computing
----------------------------------
-
 
 Coda
 ====
@@ -521,7 +517,9 @@ Why you should have one
 
 * More and more research uses software
 * General programmers can't understand research
-* Postdocs and PhD students don't have time to make reliable code
+* Postdocs and PhD students don't have time to make *reliable* code
+* Bad code will hold research back
+* Longuer know-how retention across generations of student
 * Better software for better research
 
 Why you should be one
@@ -529,6 +527,7 @@ Why you should be one
 
 * write code
 * while doing all sorts of science
+* and humanities
 
 Why you should be one
 ---------------------
